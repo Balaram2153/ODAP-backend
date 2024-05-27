@@ -1,0 +1,674 @@
+!SESSION 2024-05-16 09:49:58.396 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 09:50:02.434
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-16 09:50:29.666
+!MESSAGE Logback config file: D:\ONLINE_DOCTOR\BACKEND-ODAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 09:50:30.538
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 09:50:30.539
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-16 09:50:31.126
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-16 09:50:31.126
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-16 09:50:33.102
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-16 09:50:33.102
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-16 09:50:39.534
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADmIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:50.497
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:50.498
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:50.499
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:50.501
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.338
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.339
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.340
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.342
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.344
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:51:52.345
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:06.357
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:06.364
+!MESSAGE Boot project ADDED: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:06.365
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:06.489
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 09:52:06.507
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ADmIN\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/ONLINE_DOCTOR/BACKEND-ODAP/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715833326505
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:06.508
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-16 09:52:06.571
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17264
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.685
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.696
+!MESSAGE Boot project ADDED: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.697
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.708
+!MESSAGE Boot project ADDED: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.708
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.711
+!MESSAGE Boot project ADDED: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.711
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.719
+!MESSAGE Boot project ADDED: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.719
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.721
+!MESSAGE Boot project ADDED: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.722
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.725
+!MESSAGE Boot project ADDED: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.725
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.733
+!MESSAGE Boot project ADDED: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.733
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.735
+!MESSAGE Boot project ADDED: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.735
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:10.737
+!MESSAGE Boot project ADDED: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.256
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.257
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.279
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.283
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.283
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.284
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.285
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.286
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:12.287
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.285
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.286
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.293
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.294
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.295
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.297
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.298
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.301
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:19.302
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:36.015
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:37.720
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:37.721
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:37.722
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:39.353
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:39.353
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:39.354
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:40.958
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:40.959
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:52:40.972
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:52.350
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:52.352
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:52.353
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:54.165
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:54.166
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:54.166
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:55.926
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:55.926
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:55.927
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 09:53:55.927
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.eclipse.jface 2 0 2024-05-16 09:56:24.600
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-16 09:56:24.600
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-05-16 11:11:36.523
+!MESSAGE Project ODAP-Admin already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-05-16 11:11:36.524
+!MESSAGE Project ODAP-Medical already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-05-16 11:11:36.525
+!MESSAGE Project ODAP_DoctorRegistration already exists
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 11:11:45.757
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 11:11:48.307
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 11:11:48.309
+!MESSAGE Boot project ADDED: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 11:11:51.858
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 11:43:29.003
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-16 12:08:55.192
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 12:32:43.352
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 12:32:43.511
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 12:33:31.643
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-16 12:43:49.329
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2024-05-16 19:58:09.734
+!MESSAGE Graphic is disposed
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.graphics.Font.getFontData(Font.java:195)
+	at org.eclipse.e4.ui.css.swt.helpers.CSSSWTFontHelper.equals(CSSSWTFontHelper.java:509)
+	at org.eclipse.e4.ui.css.swt.helpers.CSSSWTFontHelper.setFont(CSSSWTFontHelper.java:481)
+	at org.eclipse.e4.ui.css.swt.properties.css2.CSSPropertyFontSWTHandler.setFont(CSSPropertyFontSWTHandler.java:69)
+	at org.eclipse.e4.ui.css.swt.properties.css2.CSSPropertyFontSWTHandler.onAllCSSPropertiesApplyed(CSSPropertyFontSWTHandler.java:251)
+	at org.eclipse.e4.ui.css.core.dom.properties.ICSSPropertyHandler2.onAllCSSPropertiesApplyed(ICSSPropertyHandler2.java:47)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyleDeclaration(AbstractCSSEngine.java:582)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:425)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:373)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.processNodeList(AbstractCSSEngine.java:262)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:442)
+	at org.eclipse.e4.ui.css.core.impl.engine.AbstractCSSEngine.applyStyles(AbstractCSSEngine.java:373)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.applyStyles(ThemeEngine.java:554)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.setClassnameAndId(PartRenderingEngine.java:1320)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.setCSSInfo(SWTPartRenderer.java:123)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.updateNonFocusState(WBWRenderer.java:616)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$5(WBWRenderer.java:586)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1090)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1075)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1519)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2334)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4741)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.SetActiveWindow(Native Method)
+	at org.eclipse.swt.widgets.Shell.fixActiveShell(Shell.java:825)
+	at org.eclipse.swt.widgets.Shell.destroyWidget(Shell.java:731)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:831)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:428)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3716)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:324)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3265)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:609)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:776)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1327)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1053)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2814)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4266)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3271)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:609)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:722)
+	at org.eclipse.ui.internal.SaveablesList.promptForSaving(SaveablesList.java:629)
+	at org.eclipse.ui.internal.SaveablesList.promptForSavingIfNecessary(SaveablesList.java:608)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:550)
+	at org.eclipse.ui.internal.SaveablesList.preCloseParts(SaveablesList.java:484)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.saveParts(WorkbenchWindow.java:776)
+	at org.eclipse.ui.internal.Workbench.saveAllParts(Workbench.java:1327)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1053)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1393)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1393)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1369)
+	at org.eclipse.ui.internal.Workbench.lambda$16(Workbench.java:2814)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4274)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4266)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3271)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4845)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1478)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2306)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5040)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3655)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SESSION 2024-05-17 09:10:13.831 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 09:10:50.272
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-05-17 09:10:51.535
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 09:10:52.977
+!MESSAGE Logback config file: D:\ONLINE_DOCTOR\BACKEND-ODAP\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-05-17 09:10:53.907
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 09:10:53.907
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-05-17 09:10:54.581
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 09:10:54.581
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.jface 2 0 2024-05-17 09:10:55.997
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-17 09:10:55.997
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 09:11:04.394
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\ADmIN\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\ADmIN\eclipse\java-2023-09\eclipse\..\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=D:/ONLINE_DOCTOR/BACKEND-ODAP/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715917264393
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:04.395
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 09:11:04.438
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 11128
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-17 09:11:07.820
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADmIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.815
+!MESSAGE Boot project ADDED: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.816
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.817
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.818
+!MESSAGE Boot project ADDED: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.819
+!MESSAGE Boot project ADDED: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.820
+!MESSAGE Boot project ADDED: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:08.821
+!MESSAGE Boot project ADDED: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.336
+!MESSAGE Boot project ADDED: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.338
+!MESSAGE Boot project ADDED: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.339
+!MESSAGE Boot project ADDED: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.341
+!MESSAGE Boot project ADDED: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.344
+!MESSAGE Boot project ADDED: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:11:10.345
+!MESSAGE Boot project ADDED: providers
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-05-17 09:11:50.578
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:19.301
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.499
+!MESSAGE Classpath changed for project: ODAP-Admin
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.574
+!MESSAGE Classpath changed for project: ODAP-Medical
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.574
+!MESSAGE Classpath changed for project: ODAP_DoctorRegistration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.575
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Patient
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.576
+!MESSAGE Classpath changed for project: OnlineDoctorAppointmentPortal-Treatment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.576
+!MESSAGE Classpath changed for project: Online_Physical_Consultant
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.577
+!MESSAGE Classpath changed for project: Patient-Book-Test
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.577
+!MESSAGE Classpath changed for project: odrp
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.579
+!MESSAGE Classpath changed for project: online-Doctor-Portal
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:27.579
+!MESSAGE Classpath changed for project: pay
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 09:13:29.292
+!MESSAGE Classpath changed for project: providers
+
+!ENTRY org.eclipse.jface 2 0 2024-05-17 09:24:49.472
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-05-17 09:24:49.472
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
